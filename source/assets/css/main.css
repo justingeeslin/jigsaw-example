@@ -1,0 +1,59 @@
+body {
+  scrollbar-3dlight-color: #ffd700;
+  scrollbar-arrow-color: #ff0;
+  scrollbar-base-color: #ff6347;
+  scrollbar-darkshadow-color: #ffa500;
+  scrollbar-face-color: #008080;
+  scrollbar-highlight-color: #ff69b4;
+  scrollbar-shadow-color: #f0f;
+  background-color: beige;
+  color: green;
+}
+
+header a {
+  color: green;
+}
+
+@media (min-width: 800px) {
+  header,
+  nav,
+  main {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+main {
+  min-height: 20em;
+}
+
+iframe {
+  min-width: 30em;
+  min-height: 30em;
+  margin: 0 10%;
+}
+
+@media (max-width: 800px) {
+  iframe {
+    height: 20em;
+    width: 100%;
+  }
+}
+
+iframe[src~=sermonaudio] {
+  min-height: inherit;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+input,
+button {
+  background-color: lightGray;
+}
+
+footer img {
+  max-width: 6em;
+}
+
